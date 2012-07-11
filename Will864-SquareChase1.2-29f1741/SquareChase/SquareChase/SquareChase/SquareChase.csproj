@@ -108,7 +108,7 @@
     <Content Include="GameThumbnail.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\squarechase1\squarechase1\squarechase1.fsproj">
+    <ProjectReference Include="..\..\..\..\..\..\..\Desktop\squarechase1\squarechase1\squarechase1.fsproj">
       <Project>{f51ad05c-284e-4d57-8a8e-5560766dd78f}</Project>
       <Name>squarechase1</Name>
     </ProjectReference>

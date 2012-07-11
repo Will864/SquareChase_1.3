@@ -5,7 +5,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareChase", "SquareChase\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareChaseContent", "SquareChase\SquareChaseContent\SquareChaseContent.contentproj", "{341A43C7-C0A9-4212-A2F4-14F9FA7C10E4}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "squarechase1", "..\..\squarechase1\squarechase1\squarechase1.fsproj", "{F51AD05C-284E-4D57-8A8E-5560766DD78F}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "squarechase1", "..\..\..\..\..\Desktop\squarechase1\squarechase1\squarechase1.fsproj", "{F51AD05C-284E-4D57-8A8E-5560766DD78F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

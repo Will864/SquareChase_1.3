@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>squarechase1.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:squarechase1.Fakes.ShimUser">
+            <summary>Shim type of squarechase1.User</summary>
+        </member>
+        <member name="M:squarechase1.Fakes.ShimUser.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:squarechase1.Fakes.ShimUser.#ctor(squarechase1.User)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:squarechase1.Fakes.ShimUser.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:squarechase1.Fakes.ShimUser.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:squarechase1.Fakes.ShimUser.Bind(System.IComparable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:squarechase1.Fakes.ShimUser.Bind(System.IComparable{squarechase1.User})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:squarechase1.Fakes.ShimUser.Bind(System.IEquatable{squarechase1.User})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:squarechase1.Fakes.ShimUser.Bind(System.Collections.IStructuralComparable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:squarechase1.Fakes.ShimUser.Bind(System.Collections.IStructuralEquatable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:squarechase1.Fakes.ShimUser.AgeGet">
+            <summary>Sets the shim of User.get_Age()</summary>
+        </member>
+        <member name="P:squarechase1.Fakes.ShimUser.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:squarechase1.Fakes.ShimUser.CompareToObject">
+            <summary>Sets the shim of User.CompareTo(Object obj)</summary>
+        </member>
+        <member name="P:squarechase1.Fakes.ShimUser.CompareToObjectIComparer">
+            <summary>Sets the shim of User.CompareTo(Object obj, IComparer comp)</summary>
+        </member>
+        <member name="P:squarechase1.Fakes.ShimUser.CompareToUser">
+            <summary>Sets the shim of User.CompareTo(User obj)</summary>
+        </member>
+        <member name="P:squarechase1.Fakes.ShimUser.ConstructorStringInt32">
+            <summary>Sets the shim of User.User(String name, Int32 age)</summary>
+        </member>
+        <member name="P:squarechase1.Fakes.ShimUser.EqualsObject">
+            <summary>Sets the shim of User.Equals(Object obj)</summary>
+        </member>
+        <member name="P:squarechase1.Fakes.ShimUser.EqualsObjectIEqualityComparer">
+            <summary>Sets the shim of User.Equals(Object obj, IEqualityComparer comp)</summary>
+        </member>
+        <member name="P:squarechase1.Fakes.ShimUser.EqualsUser">
+            <summary>Sets the shim of User.Equals(User obj)</summary>
+        </member>
+        <member name="P:squarechase1.Fakes.ShimUser.GetHashCode">
+            <summary>Sets the shim of User.GetHashCode()</summary>
+        </member>
+        <member name="P:squarechase1.Fakes.ShimUser.GetHashCodeIEqualityComparer">
+            <summary>Sets the shim of User.GetHashCode(IEqualityComparer comp)</summary>
+        </member>
+        <member name="P:squarechase1.Fakes.ShimUser.NameGet">
+            <summary>Sets the shim of User.get_Name()</summary>
+        </member>
+        <member name="T:squarechase1.Fakes.ShimUser.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:squarechase1.Fakes.ShimUser.AllInstances.AgeGet">
+            <summary>Sets the shim of User.get_Age()</summary>
+        </member>
+        <member name="P:squarechase1.Fakes.ShimUser.AllInstances.CompareToObject">
+            <summary>Sets the shim of User.CompareTo(Object obj)</summary>
+        </member>
+        <member name="P:squarechase1.Fakes.ShimUser.AllInstances.CompareToObjectIComparer">
+            <summary>Sets the shim of User.CompareTo(Object obj, IComparer comp)</summary>
+        </member>
+        <member name="P:squarechase1.Fakes.ShimUser.AllInstances.CompareToUser">
+            <summary>Sets the shim of User.CompareTo(User obj)</summary>
+        </member>
+        <member name="P:squarechase1.Fakes.ShimUser.AllInstances.EqualsObject">
+            <summary>Sets the shim of User.Equals(Object obj)</summary>
+        </member>
+        <member name="P:squarechase1.Fakes.ShimUser.AllInstances.EqualsObjectIEqualityComparer">
+            <summary>Sets the shim of User.Equals(Object obj, IEqualityComparer comp)</summary>
+        </member>
+        <member name="P:squarechase1.Fakes.ShimUser.AllInstances.EqualsUser">
+            <summary>Sets the shim of User.Equals(User obj)</summary>
+        </member>
+        <member name="P:squarechase1.Fakes.ShimUser.AllInstances.GetHashCode01">
+            <summary>Sets the shim of User.GetHashCode()</summary>
+        </member>
+        <member name="P:squarechase1.Fakes.ShimUser.AllInstances.GetHashCodeIEqualityComparer">
+            <summary>Sets the shim of User.GetHashCode(IEqualityComparer comp)</summary>
+        </member>
+        <member name="P:squarechase1.Fakes.ShimUser.AllInstances.NameGet">
+            <summary>Sets the shim of User.get_Name()</summary>
+        </member>
+    </members>
+</doc>
